@@ -1,0 +1,155 @@
+<html>
+  <head>
+    <title>Raka Dr Profile Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        padding: 0;
+      }
+      .container {
+        padding: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: rgb(252, 246, 213);
+      }
+      fieldset {
+        border: 4px solid rgb(208, 89, 58);
+        padding: 20px;
+      }
+      legend {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .profile-header {
+        display: flex;
+        justify-content: space-between;
+      }
+      .profile-header img {
+        width: 250px;
+        height: 250px;
+        margin-top: -30px;
+      }
+      .profile-header .profile-info {
+        flex-grow: 1;
+        margin-left: 20px;
+      }
+      .profile-header .profile-info h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+      .profile-header .categories {
+        text-align: right;
+      }
+      .profile-header .categories p {
+        margin: 0;
+      }
+      .contact-info {
+        margin-top: 10px;
+      }
+      .contact-info p {
+        margin: 5px 0;
+      }
+      .contact-info a {
+        color: blue;
+      }
+      .description {
+        margin-top: 20px;
+      }
+      .attachments {
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+      .attachments video {
+        width: 200px;
+        height: 230px;
+        border: 4px solid rgb(208, 89, 58);
+        margin-right: 25px;
+        margin-top: 20px;
+      }
+      .attachments .images {
+        border: 4px solid rgb(208, 89, 58);
+        padding: 10px;
+        margin-right: 25px;
+        margin-top: 20px;
+        width: 208px;
+      }
+      .attachments .images img {
+        width: 100px;
+        height: 100px;
+      }
+      .attachments .attachment-links {
+        margin-top: 10px;
+        height: 200px;
+        display: inline-block;
+        text-align: left;
+        width: 200px;
+      }
+      .attachments .attachment-links a {
+        display: block;
+        color: blue;
+        margin-right: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <fieldset>
+        <legend>Raka Dr Profile Page</legend>
+        <div class="profile-header">
+          <img src="img/rdr.png" />
+          <div class="profile-info">
+            <h1>Raka Dwi Randika</h1>
+            <p>
+              Jln Madrasah 1
+              <br />
+              Pangkalan Jati,
+              <br />
+              Cinere, Depok
+            </p>
+            <div class="contact-info">
+              <p>
+                Email:
+                <a href="mailto:randikaraka19@gmail.com"> randikaraka19@gmail.com </a>
+              </p>
+              <p>Telephone: 0882 1200 5990</p>
+            </div>
+          </div>
+          <div class="categories">
+            <p>Web Developer</p>
+            <p>
+              Programmer
+              <br />
+              Graphic Designer
+              <br />
+              Barista
+            </p>
+          </div>
+        </div>
+        <div class="description">
+          <p>
+            Hi, i'm a person who interested in network technology and graphic design. I have basic knowlege about computers, networks, programming, graphic design, and barista skill. I am also a person who always wants to learn new things
+            and wants to improve all of my skills.
+          </p>
+        </div>
+        <div class="attachments">
+          <video controls="">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+          </video>
+          <div class="images">
+            <img src="img/pic3.png" />
+            <img src="img/pic2.png" />
+            <img src="img/pic1.png" />
+            <img src="img/pic4.png" />
+          </div>
+          <fieldset class="attachment-links">
+            <legend>Social Media</legend>
+            <a href="https://www.instagram.com/rakaa_dr/"> Instagram </a>
+          </fieldset>
+        </div>
+      </fieldset>
+    </div>
+  </body>
+</html>
